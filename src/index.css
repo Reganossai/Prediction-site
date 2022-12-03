@@ -1,0 +1,298 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  background-color: black;
+  width: 100%;
+}
+
+.logoo{
+  color: blanchedAlmond;
+  font-size: 20px;
+  font-family: fantasy  ;
+}
+
+
+.iconic{
+color: blanchedAlmond;
+font-size: 15px;
+padding:2px 2px;
+}
+
+.icons{
+  padding: 2px 5px;
+  margin: 0 2px;
+  background-color:white;
+  color: black;
+  border-radius: 5px;
+}
+
+
+#navbarSupportedContent li {
+padding-left: 60px
+}
+
+#navbarSupportedContent li a{
+  padding: 15px 10px;
+  color: blanchedAlmond;
+  font-size: 15px;
+  font-family: cursive;
+}   
+
+.body-container{
+  width: 600px;
+  margin: 0 150px;
+  background-color: black;
+}
+
+.body-header h1{
+  font-size: 20px;
+  margin: 2px 20px;
+  padding: 5px 5px;
+  font-family: verdana;
+  color: white;
+}
+
+
+.images{
+  display: flex;
+  flex-direction: row;
+}
+
+.images a{
+  margin: 0 10px;
+  color: white;
+}
+
+.image3{
+ margin: 0 10px; 
+}
+
+.whitespace{
+  width: 600px;
+  margin: 0 150px;
+  background-color: white;
+}
+
+.clublogo img{
+  width: 100px;
+  height: 110px;
+  margin: 0 20px;
+}
+
+.sub{
+  width: 550px;
+  background-color: #F0F0F0;
+  margin: 10px 20px;
+  border-radius: 10px;
+}
+.sub h3{  
+  padding: 10px 5px;
+  font-size: 20px;
+  font-family: cursive;
+  text-align: center;
+}
+
+.prediction{
+  display: flex;
+  flex-direction: row;
+}
+
+.middle{
+ margin: 0 30px;
+  
+}
+
+.middle h2{
+  font-size: 25px;
+  text-align: center;
+}
+
+
+.middle h3{
+ font-size: 20px;
+ text-align: center;
+}
+
+.middle button{
+  padding: 10px 10px;
+  margin: 10px 35px;
+}
+
+.sidebar{
+  width: 350px;
+  margin: 2px 900px;
+  position: absolute;
+  top: 70px;
+}
+
+.sidebar h1{
+  font-family: verdana;
+  font-size:27px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.sidebar h2{
+  font-family: cursive;
+  font-size: 25px;
+}
+
+.kik{
+  display: flex;
+}
+
+.kik img{
+  width: 60px;
+  height: 40px;
+  padding: 2px 5px;
+}
+
+.kik h2{
+  font-size: 20px;
+  margin-top: 10px;
+
+}
+
+.whitey h5{
+  margin: 20px 0;
+  font-family: cursive;
+  font-size: 15px;
+}
+
+.whitey{
+  background-color: #F0F0F0;
+  width: 400px;
+  padding: 20px 20px;
+  margin: 25px 0;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+}
+
+.whitey button{
+  background-color: black;
+  padding: 10px 100px;
+  border-radius: 5px;
+  margin: 0 30px;
+}
+.whitey a{
+  color: blanchedAlmond;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+.ccc{
+  display:flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+.ccc h1{
+  font-family: fantasy;
+  font-size: 30px;
+  margin-left: 50px;
+}
+
+.ccc a{
+position: absolute;
+right: 6%;
+margin-top: 10px;
+}
+
+.bbb{
+  display:flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  padding:10px;
+}
+
+.bbb h1{
+ font-family: fantasy;
+ font-size: 30px;
+ margin-left: 50px;
+}
+
+.bbb a{
+position: absolute;
+right: 10%;
+margin-top: 10px;
+}
+
+.mmm{
+background-color: #F0F0F0;
+display:flex;
+width: 350px;
+padding: 5px 5px;
+border-style:groove;
+border-radius: 5px;
+}
+
+.nnn{
+background-color: #F0F0F0;
+padding: 30px;
+display:flex;
+width: 500px;
+border-style:groove;
+border-radius: 5px;
+}
+
+.mmm p{
+font-family: verdana;
+margin: 10px 0px;
+color: gray;
+}
+
+.mmm h3{
+font-family: verdana;
+font-size: 20px;
+padding: 10px 5px;
+}
+
+.nnn h3{
+  font-family: Verdana;
+  font-size: 20px;
+  padding: 10px 5px;
+}
+
+.sub-leaguebar{
+  display: flex;
+  flex-direction: row;
+  margin-left: 70px;
+}
+
+.sub-newsbar{
+  display: flex;
+  flex-direction: row;
+  margin-left: 80px;
+}
+
+.mmm img{
+  width: 50px;
+  height: 40px; 
+}
+
+.nnn img{
+  width: 150px;
+}
+
+.leaguebar{
+  margin-top: 80px;
+}
+
+.newsbar{
+  width: 1000px;
+  margin-top: 80px;
+}
+
+.asake{
+  margin: 15px 5px;   
+  color: blue; 
+}
+
+
