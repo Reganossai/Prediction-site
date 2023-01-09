@@ -36,3 +36,34 @@
 <h3>Belgium team guide and best bet - World Cup 2022</h3>
 </div>
 </div>
+
+
+
+
+
+
+<ul>
+{photos.map((photo)=>(
+<li>{photo.url},<img src={photo.url}/></li>
+  ))}
+</ul>
+
+
+
+
+import axios from "axios";
+
+const options = {
+  method: 'GET',
+  url: 'https://api-football-v1.p.rapidapi.com/v3/timezone',
+  headers: {
+    'X-RapidAPI-Key': 'SIGN-UP-FOR-KEY',
+    'X-RapidAPI-Host': 'api-football-v1.p.rapidapi.com'
+  }
+};
+
+axios.request(options).then(function (response) {
+	console.log(response.data);
+}).catch(function (error) {
+	console.error(error);
+});

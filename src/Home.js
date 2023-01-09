@@ -1,5 +1,4 @@
-import react from 'react';
-
+import react,{useState,useEffect} from 'react';
 import {faRegistered} from '@fortawesome/free-solid-svg-icons';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faBars} from '@fortawesome/free-solid-svg-icons';
@@ -12,10 +11,9 @@ import {faHandshake} from '@fortawesome/free-solid-svg-icons';
 import {faRadio} from '@fortawesome/free-solid-svg-icons';
 import {faAngleRight} from '@fortawesome/free-solid-svg-icons';
 
-const Home = () => {
-	
-	return(
 
+const Home = () => {
+	return(
 <div className="home-container">
 <nav className="navbar navbar-expand-lg">
   <div className="container-fluid">
